@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- css bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet" />
+        <title>Bootstrap Example</title>
+        <!-- script bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- css -->
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <header>
+            <!-- awal navbar -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" style="margin-top: -50px">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo.png" alt="Logo" width="325" height="250" class="d-inline-block align-text-top" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-nav-spacing justify-content-between">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Individual Counseling</a></li>
+                                    <li><a class="dropdown-item" href="#">Couples Therapy</a></li>
+                                    <li><a class="dropdown-item" href="#">Family Counseling</a></li>
+                                    <li><a class="dropdown-item" href="#">Child and Adolescent Counseling</a></li>
+                                    <li><a class="dropdown-item" href="#">Group Therapy</a></li>
+                                    <li><a class="dropdown-item" href="#">Online Counseling</a></li>
+                                    <li><hr class="dropdown-divider" /></li>
+                                    <li><a class="dropdown-item" href="#">Psychological Assessment</a></li>
+                                    <li><a class="dropdown-item" href="#">Workshops and Seminars</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex ms-auto me-2">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                            <button class="btn btn-outline-secondary me-2" type="submit">Search</button>
+                        </form>
+                        <form class="d-flex me-2">
+                            <button class="btn btn-sm btn-outline-secondary me-2" type="button">Sign In</button>
+                            <button class="btn btn-sm btn-outline-secondary" type="button">Sign Up</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <!-- End Example Code -->
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                    fill="#f1ece3"
+                    fill-opacity="1"
+                    d="M0,128L34.3,112C68.6,96,137,64,206,58.7C274.3,53,343,75,411,96C480,117,549,139,617,170.7C685.7,203,754,245,823,229.3C891.4,213,960,139,1029,122.7C1097.1,107,1166,149,1234,144C1302.9,139,1371,85,1406,58.7L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+                ></path>
+            </svg> -->
+            <img src="img/header.png" alt="Header Banner" />
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                    fill="#f1ece3"
+                    fill-opacity="1"
+                    d="M0,160L48,181.3C96,203,192,245,288,250.7C384,256,480,224,576,229.3C672,235,768,277,864,282.7C960,288,1056,256,1152,240C1248,224,1344,224,1392,224L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+                ></path>
+            </svg>
+        </header>
+        <!-- About Us -->
+        <section id="about">
+            <div class="container">
+                <div class="row text-center mb-3">
+                    <div class="col">
+                        <h2>About Us</h2>
+                    </div>
+                </div>
+                <div class="row fs-5 text-center">
+                    <div class="col-md-6">
+                        <p>
+                            Psychology Clinic adalah pusat pelayanan kesehatan mental yang berkomitmen untuk memberikan bantuan profesional dalam mengatasi berbagai masalah psikologis. Kami menyediakan layanan konseling dan terapi yang
+                            disesuaikan dengan kebutuhan individu, membantu mereka mengatasi stres, kecemasan, depresi, dan berbagai tantangan mental lainnya.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            Dengan tim terapis berpengalaman dan terdidik, kami berusaha menciptakan lingkungan yang aman dan mendukung bagi setiap klien. Kami percaya bahwa setiap individu memiliki potensi untuk pertumbuhan pribadi, dan
+                            melalui layanan kami, kami membantu mereka menemukan kesejahteraan mental dan mencapai kehidupan yang lebih seimbang.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                    fill="#f1ece3"
+                    fill-opacity="1"
+                    d="M0,160L48,165.3C96,171,192,181,288,160C384,139,480,85,576,80C672,75,768,117,864,117.3C960,117,1056,75,1152,80C1248,85,1344,139,1392,165.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+                ></path>
+            </svg>
+        </section>
+        <!-- Akhir About Us -->
+
+        <!-- Service -->
+        <section id="servicce" style="background-color: #f1ece3">
+            <div class="container">
+                <div class="row text-center mb-3">
+                    <div class="col">
+                        <h2>Services</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img src="img/service1.jpg" class="card-img-top img-thumbnail" alt="Individual Counseling" />
+                            <div class="card-body">
+                                <h5 class="card-title text-center fs-4">Individual Counseling</h5>
+                                <p class="card-text">Menawarkan bantuan profesional dengan pendekatan konseling individu untuk membantu Anda mengatasi tantangan psikologis dan mencapai kesejahteraan mental yang optimal.</p>
+                                <a href="#" class="btn btn-primary">klik</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img src="img/service2.jpg" class="card-img-top img-thumbnail" alt="Couples Therapy" />
+                            <div class="card-body">
+                                <h5 class="card-title text-center fs-4">Couples Therapy</h5>
+                                <p class="card-text">Menawarkan bantuan profesional dengan pendekatan konseling individu untuk membantu Anda mengatasi tantangan psikologis dan mencapai kesejahteraan mental yang optimal.</p>
+                                <a href="#" class="btn btn-primary">klik</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img src="img/service3.jpg" class="card-img-top img-thumbnail" alt="Family Counseling" />
+                            <div class="card-body">
+                                <h5 class="card-title text-center fs-4">Family Counseling</h5>
+                                <p class="card-text">Menawarkan bantuan profesional dengan pendekatan konseling individu untuk membantu Anda mengatasi tantangan psikologis dan mencapai kesejahteraan mental yang optimal.</p>
+                                <a href="#" class="btn btn-primary">klik</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img src="img/service4.jpg" class="card-img-top img-thumbnail" alt="Child Counseling" />
+                            <div class="card-body">
+                                <h5 class="card-title text-center fs-4">Child Counseling</h5>
+                                <p class="card-text">Menawarkan bantuan profesional dengan pendekatan konseling individu untuk membantu Anda mengatasi tantangan psikologis dan mencapai kesejahteraan mental yang optimal.</p>
+                                <a href="#" class="btn btn-primary">klik</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img src="img/service5.jpg" class="card-img-top img-thumbnail" alt="Group Therapy" />
+                            <div class="card-body">
+                                <h5 class="card-title text-center fs-4">Group Therapy</h5>
+                                <p class="card-text">Menawarkan bantuan profesional dengan pendekatan konseling individu untuk membantu Anda mengatasi tantangan psikologis dan mencapai kesejahteraan mental yang optimal.</p>
+                                <a href="#" class="btn btn-primary">klik</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img src="img/service6.jpg" class="card-img-top img-thumbnail" alt="Online Counseling" />
+                            <div class="card-body">
+                                <h5 class="card-title text-center fs-4">Online Counseling</h5>
+                                <p class="card-text">Menawarkan bantuan profesional dengan pendekatan konseling individu untuk membantu Anda mengatasi tantangan psikologis dan mencapai kesejahteraan mental yang optimal.</p>
+                                <a href="#" class="btn btn-primary">klik</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img src="img/service7.jpg" class="card-img-top img-thumbnail" alt="Psychological Assessment" />
+                            <div class="card-body">
+                                <h5 class="card-title text-center fs-4">Psychological Assessment</h5>
+                                <p class="card-text">Menawarkan bantuan profesional dengan pendekatan konseling individu untuk membantu Anda mengatasi tantangan psikologis dan mencapai kesejahteraan mental yang optimal.</p>
+                                <a href="#" class="btn btn-primary">klik</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img src="img/service8.jpg" class="card-img-top img-thumbnail" alt="Workshops and Seminars" />
+                            <div class="card-body">
+                                <h5 class="card-title text-center fs-4">Workshops and Seminars</h5>
+                                <p class="card-text">Menawarkan bantuan profesional dengan pendekatan konseling individu untuk membantu Anda mengatasi tantangan psikologis dan mencapai kesejahteraan mental yang optimal.</p>
+                                <a href="#" class="btn btn-primary">klik</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                    fill="#ffffff"
+                    fill-opacity="1"
+                    d="M0,96L40,85.3C80,75,160,53,240,58.7C320,64,400,96,480,122.7C560,149,640,171,720,181.3C800,192,880,192,960,165.3C1040,139,1120,85,1200,85.3C1280,85,1360,139,1400,165.3L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+                ></path>
+            </svg>
+        </section>
+        <!-- Akhir Service -->
+
+        <!-- Contact -->
+        <section id="contact">
+            <div class="container">
+                <div class="row text-center mb-3">
+                    <div class="col">
+                        <h2>Contact Us</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputNama" class="form-label">Nama</label>
+                                <input type="text" class="form-control" id="exampleInputNama" aria-describedby="emailHelp" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputNoTelp" class="form-label">Nomor Telepon</label>
+                                <input type="number" class="form-control" id="exampleInputNoTelp" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputSubjek" class="form-label">Subjek</label>
+                                <input type="text" class="form-control" id="exampleInputSubjek" aria-describedby="emailHelp" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPesan" class="form-label">Pesan</label>
+                                <input type="text" class="form-control" id="exampleInputPesan" aria-describedby="emailHelp" />
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Akhir contact -->
+
+        <!-- Footer -->
+        <footer class="background-color: #f1ece3 text-center mt-2 text-bold">
+            <p>Created with love</p>
+        </footer>
+        <!-- Akhir Footer -->
+    </body>
+</html>

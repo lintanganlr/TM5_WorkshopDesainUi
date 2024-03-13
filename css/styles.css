@@ -1,0 +1,23 @@
+/* Custom styles go here */
+header {
+    position: relative;
+}
+header img {
+    width: auto;
+    max-width: 100%; /* Ensure the image doesn't exceed its original size */
+    width: auto; /* Maintain aspect ratio */
+}
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Optional: Set the text color */
+    text-align: center;
+    font-size: 2em; /* Adjust the font size as needed */
+    font-weight: bold; /* Optional: Adjust the font weight */
+    z-index: 1000; /* Ensure text is above the image */
+}
+.container-fluid {
+    height: auto;
+}
